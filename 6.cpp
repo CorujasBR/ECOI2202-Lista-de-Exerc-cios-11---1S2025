@@ -22,7 +22,6 @@ int main() {
 
     file.close();
 
-    // Criação do script do GNUplot
     std::ofstream script("script.gp");
     if (!script) {
         std::cerr << "Erro ao criar o arquivo script.gp." << std::endl;
